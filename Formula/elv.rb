@@ -13,4 +13,10 @@ class Elv < Formula
   test do
     system "elv", "--version"
   end
+
+  bottle do
+    root_url "https://github.com/kpagacz/homebrew-elv/tree/main/Bottles/v0.12.1"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, ventura: "7bb5481a01fe3681fac1f0a3c38faafc743e887d6268bf4a15356619d684cadc"
+  end
 end
