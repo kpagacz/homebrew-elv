@@ -13,6 +13,6 @@ class Elv < Formula
   end
 
   test do
-    system "elv", "--version"
+    system "${bin}/elv", "--version"
   end
 end
