@@ -1,8 +1,8 @@
 class Elv < Formula
   desc "Little CLI helper for Advent of Code"
   homepage "https://github.com/kpagacz/elv"
-  url "https://github.com/kpagacz/elv/archive/refs/tags/v0.13.1.tar.gz"
-  sha256 "60d1a7c6a28c32cec2fee0e18e33e0810b0523fe4bd21ca9b87a496a9f42b99b"
+  url "https://github.com/kpagacz/elv/archive/refs/tags/v0.13.2.tar.gz"
+  sha256 "2e074f0134afc62bad88875a85226a9ea02681f63bdf099bbc9cf0fd7ef76b53"
   license ""
 
   depends_on "rust" => :build
